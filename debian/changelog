@@ -3,6 +3,7 @@ qtserialport-opensource-src (5.1.1-2) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Tighten Qt 5 build dependencies.
+  * Simplify a little libqt5serialport5.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Sep 2013 09:22:40 -0300
 

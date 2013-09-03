@@ -1,3 +1,2 @@
 usr/lib/*/libQt5SerialPort.so.5
-usr/lib/*/libQt5SerialPort.so.5.1
-usr/lib/*/libQt5SerialPort.so.5.1.0
+usr/lib/*/libQt5SerialPort.so.5.*
