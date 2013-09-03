@@ -32,7 +32,7 @@ override_dh_auto_install-arch:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	# Remove private headers, nothing needs them so far.
-	rm -rfv debian/tmp/usr/include/qt5/QtSerialPort/5.1.0/QtSerialPort/private/
+	rm -rfv debian/tmp/usr/include/qt5/QtSerialPort/*/QtSerialPort/private/
 	
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \

@@ -4,6 +4,8 @@ qtserialport-opensource-src (5.1.1-2) UNRELEASED; urgency=low
   * New upstream release.
   * Tighten Qt 5 build dependencies.
   * Simplify a little libqt5serialport5.install.
+  * Do not harcode the version of the package in the line that removes the
+    private headers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Sep 2013 09:22:40 -0300
 
