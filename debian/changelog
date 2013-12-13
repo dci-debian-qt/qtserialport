@@ -6,6 +6,7 @@ qtserialport-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Add libudev-dev as build dependency.
   * Adjust install files.
   * Remove new private stuff we are not shipping.
+  * Update symbols file with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Dec 2013 11:56:32 -0300
 
