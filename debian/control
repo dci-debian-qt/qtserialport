@@ -10,8 +10,9 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
+               libudev-dev,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.2.0+dfsg~), libudev-dev
+               qtbase5-dev (>= 5.2.0+dfsg~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.2.0+dfsg~),
                      qttools5-dev-tools (>= 5.2.0~)
 Standards-Version: 3.9.4
@@ -34,9 +35,7 @@ Package: libqt5serialport5-dev
 Section: libdevel
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libqt5serialport5 (= ${binary:Version}),
-         qtbase5-dev,
-         ${misc:Depends}
+Depends: libqt5serialport5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 serial port development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -48,8 +47,7 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5serialport5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libqt5serialport5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 serial port library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
