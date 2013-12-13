@@ -13,3 +13,7 @@ usr/lib/*/libQt5SerialPort.prl
 usr/lib/*/libQt5SerialPort.so
 usr/lib/*/pkgconfig/Qt5SerialPort.pc
 usr/share/qt5/mkspecs/modules/qt_lib_serialport.pri
+usr/include/qt5/QtSerialPort/QLockFile
+usr/include/qt5/QtSerialPort/qwineventnotifier.h
+usr/include/qt5/QtSerialPort/QWinEventNotifier
+usr/include/qt5/QtSerialPort/qlockfile.h
