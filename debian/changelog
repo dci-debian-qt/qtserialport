@@ -1,6 +1,5 @@
-qtserialport-opensource-src (5.2.0-1) UNRELEASED; urgency=low
+qtserialport-opensource-src (5.2.0-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Add libudev-dev as build dependency.
@@ -8,7 +7,7 @@ qtserialport-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Remove new private stuff we are not shipping.
   * Update symbols file with current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Dec 2013 11:56:32 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 13 Dec 2013 12:40:35 -0300
 
 qtserialport-opensource-src (5.1.1-1) unstable; urgency=low
 
