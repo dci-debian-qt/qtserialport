@@ -35,7 +35,6 @@ Package: libqt5serialport5-dev
 Section: libdevel
 Architecture: any
 Depends: libqt5serialport5 (= ${binary:Version}),
-         libudev-dev [linux-any],
          qtbase5-dev,
          ${misc:Depends}
 Description: Qt 5 serial port development files

@@ -1,5 +1,9 @@
 qtserialport-opensource-src (5.2.0-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Revert the previous addition of libudev-dev, this seems a bug which should
+    be solved.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 14:50:28 -0300
 
 qtserialport-opensource-src (5.2.0-3) experimental; urgency=medium
