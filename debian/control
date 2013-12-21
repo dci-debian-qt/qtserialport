@@ -23,7 +23,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtserialport.git
 Package: libqt5serialport5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 serial port support
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -34,7 +34,6 @@ Description: Qt 5 serial port support
 Package: libqt5serialport5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5serialport5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 serial port development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
