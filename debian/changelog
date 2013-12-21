@@ -1,5 +1,9 @@
 qtserialport-opensource-src (5.2.0-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make libqt5serialport5-dev depend on libudev-dev [linux-any], required for
+    linking by the .pri files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 11:36:41 -0300
 
 qtserialport-opensource-src (5.2.0-2) experimental; urgency=medium
