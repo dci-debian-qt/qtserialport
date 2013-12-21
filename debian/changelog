@@ -1,11 +1,11 @@
-qtserialport-opensource-src (5.2.0-2) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.2.0-2) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Limit the libudev-dev build dependency to Linux architectures only.
   * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
     in Squeeze already.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Dec 2013 13:00:48 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 21 Dec 2013 11:09:53 -0300
 
 qtserialport-opensource-src (5.2.0-1) experimental; urgency=low
 
