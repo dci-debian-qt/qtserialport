@@ -5,6 +5,7 @@ qtserialport-opensource-src (5.2.0-4) UNRELEASED; urgency=medium
     be solved.
   * Move mkspec files to their new location.
     - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
+  * Update Standards-Version to 3.9.5, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 14:50:28 -0300
 
