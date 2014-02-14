@@ -51,7 +51,11 @@ usr/share/qt5/doc/qtserialport/qtserialport-blockingslave-slavethread-h.html
 usr/share/qt5/doc/qtserialport/qtserialport-cenumerator-cenumerator-pro.html
 usr/share/qt5/doc/qtserialport/qtserialport-cenumerator-example.html
 usr/share/qt5/doc/qtserialport/qtserialport-cenumerator-main-cpp.html
-usr/share/qt5/doc/qtserialport/qtserialport-creader-example.html
+usr/share/qt5/doc/qtserialport/qtserialport-creaderasync-creaderasync-pro.html
+usr/share/qt5/doc/qtserialport/qtserialport-creaderasync-example.html
+usr/share/qt5/doc/qtserialport/qtserialport-creaderasync-main-cpp.html
+usr/share/qt5/doc/qtserialport/qtserialport-creaderasync-serialportreader-cpp.html
+usr/share/qt5/doc/qtserialport/qtserialport-creaderasync-serialportreader-h.html
 usr/share/qt5/doc/qtserialport/qtserialport-creadersync-creadersync-pro.html
 usr/share/qt5/doc/qtserialport/qtserialport-creadersync-example.html
 usr/share/qt5/doc/qtserialport/qtserialport-creadersync-main-cpp.html
