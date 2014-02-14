@@ -1,12 +1,11 @@
-qtserialport-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.2.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * No symbols changes since last build.
   * Bump Qt build dependencies.
   * Update doc's install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Feb 2014 12:09:57 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 14 Feb 2014 12:19:51 -0300
 
 qtserialport-opensource-src (5.2.0-4) unstable; urgency=medium
 
