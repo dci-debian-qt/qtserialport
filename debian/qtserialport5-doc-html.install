@@ -26,8 +26,6 @@ usr/share/qt5/doc/qtserialport/images/used-in-examples/terminal/images/clear.png
 usr/share/qt5/doc/qtserialport/images/used-in-examples/terminal/images/connect.png
 usr/share/qt5/doc/qtserialport/images/used-in-examples/terminal/images/disconnect.png
 usr/share/qt5/doc/qtserialport/images/used-in-examples/terminal/images/settings.png
-usr/share/qt5/doc/qtserialport/qlockfile-members.html
-usr/share/qt5/doc/qtserialport/qlockfile.html
 usr/share/qt5/doc/qtserialport/qserialport-members.html
 usr/share/qt5/doc/qtserialport/qserialport-obsolete.html
 usr/share/qt5/doc/qtserialport/qserialport.html
