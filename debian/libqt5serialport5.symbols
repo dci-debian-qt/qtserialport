@@ -83,6 +83,7 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZNK11QSerialPort8stopBitsEv@Base 5.1.0
  _ZNK15QSerialPortInfo11descriptionEv@Base 5.1.0
  _ZNK15QSerialPortInfo12manufacturerEv@Base 5.1.0
+ _ZNK15QSerialPortInfo12serialNumberEv@Base 5.3.0
  _ZNK15QSerialPortInfo14systemLocationEv@Base 5.1.0
  _ZNK15QSerialPortInfo16vendorIdentifierEv@Base 5.1.0
  _ZNK15QSerialPortInfo17productIdentifierEv@Base 5.1.0
