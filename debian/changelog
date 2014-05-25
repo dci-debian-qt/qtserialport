@@ -1,4 +1,4 @@
-qtserialport-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.3.0-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -11,7 +11,7 @@ qtserialport-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2014 12:56:31 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 25 May 2014 12:35:39 -0300
 
 qtserialport-opensource-src (5.2.1-2) unstable; urgency=medium
 
