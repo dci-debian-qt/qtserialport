@@ -34,6 +34,7 @@ Description: Qt 5 serial port support
 Package: libqt5serialport5-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libqt5serialport5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 serial port development files
  Qt is a cross-platform C++ application framework. Qt's primary feature

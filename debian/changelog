@@ -3,7 +3,8 @@ qtserialport-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies.
-  * Update for Multi-Arch headers location.
+  * Update for Multi-Arch headers location, mark libqt5serialport5-dev as
+    Multi-Arch: same.
   * Update qtserialport5-doc-html.install for removed qlockfile documentation.
   * Add one new symbol to libqt5serialport5.symbols.
 
