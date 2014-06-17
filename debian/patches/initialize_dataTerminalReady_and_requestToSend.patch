@@ -1,0 +1,119 @@
+From 92c7ed1c92a945931b7a50895f111d8bcbe2ce5e Mon Sep 17 00:00:00 2001
+From: Dyami Caliri <dyami@dragonframe.com>
+Date: Mon, 19 May 2014 16:59:29 -0700
+Subject: [PATCH] Initialize dataTerminalReady and requestToSend.
+
+QSP::open should read values of DTR/RTS after a successful open,
+not try to write them. The user should not expect to set DTR/RTS
+before opening the port (unlike the other settings).
+
+Tested on Mac OS X 10.8.5.
+
+Task-number: QTBUG-38640
+Change-Id: Iffea464f412c6972aa26a408ba01e304fa813c76
+---
+ src/serialport/qserialport.cpp | 47 +++++++++++++++++++++++++++---------------
+ 1 file changed, 30 insertions(+), 17 deletions(-)
+
+diff --git a/src/serialport/qserialport.cpp b/src/serialport/qserialport.cpp
+index 6508940..7c83423 100644
+--- a/src/serialport/qserialport.cpp
++++ b/src/serialport/qserialport.cpp
+@@ -75,6 +75,8 @@ QSerialPortPrivateData::QSerialPortPrivateData(QSerialPort *q)
+     , stopBits(QSerialPort::OneStop)
+     , flowControl(QSerialPort::NoFlowControl)
+     , policy(QSerialPort::IgnorePolicy)
++    , dataTerminalReady(false)
++    , requestToSend(false)
+     , settingsRestoredOnClose(true)
+     , q_ptr(q)
+ {
+@@ -534,13 +536,14 @@ bool QSerialPort::open(OpenMode mode)
+         || !d->setDataBits(d->dataBits)
+         || !d->setParity(d->parity)
+         || !d->setStopBits(d->stopBits)
+-        || !d->setFlowControl(d->flowControl)
+-        || !d->setDataTerminalReady(d->dataTerminalReady)
+-        || !d->setRequestToSend(d->requestToSend)) {
++        || !d->setFlowControl(d->flowControl)) {
+         close();
+         return false;
+     }
+ 
++    d->dataTerminalReady = isDataTerminalReady();
++    d->requestToSend = isRequestToSend();
++
+     return true;
+ }
+ 
+@@ -850,13 +853,12 @@ QSerialPort::FlowControl QSerialPort::flowControl() const
+     \property QSerialPort::dataTerminalReady
+     \brief the state (high or low) of the line signal DTR
+ 
+-    If the setting is successful or set before opening the port, returns true;
+-    otherwise returns false. If the flag is true then the DTR signal is set to
+-    high; otherwise low.
++    Returns true on success, false otherwise.
++    If the flag is true then the DTR signal is set to high; otherwise low.
+ 
+-    \note If the setting is set before opening the port, the actual serial port
+-    setting is done automatically in the \l{QSerialPort::open()} method right
+-    after that the opening of the port succeeds.
++    \note The serial port has to be open before trying to set or get this
++    property; otherwise false is returned and the error code is set to
++    NotOpenError.
+ 
+     \sa pinoutSignals()
+ */
+@@ -864,7 +866,13 @@ bool QSerialPort::setDataTerminalReady(bool set)
+ {
+     Q_D(QSerialPort);
+ 
+-    bool retval = !isOpen() || d->setDataTerminalReady(set);
++    if (!isOpen()) {
++        setError(QSerialPort::NotOpenError);
++        qWarning("%s: device not open", Q_FUNC_INFO);
++        return false;
++    }
++
++    const bool retval = d->setDataTerminalReady(set);
+     if (retval && (d->dataTerminalReady != set)) {
+         d->dataTerminalReady = set;
+         emit dataTerminalReadyChanged(set);
+@@ -893,13 +901,12 @@ bool QSerialPort::isDataTerminalReady()
+     \property QSerialPort::requestToSend
+     \brief the state (high or low) of the line signal RTS
+ 
+-    If the setting is successful or set before opening the port, returns true;
+-    otherwise returns false. If the flag is true then the RTS signal is set to
+-    high; otherwise low.
++    Returns true on success, false otherwise.
++    If the flag is true then the RTS signal is set to high; otherwise low.
+ 
+-    \note If the setting is set before opening the port, the actual serial port
+-    setting is done automatically in the \l{QSerialPort::open()} method right
+-    after that the opening of the port succeeds.
++    \note The serial port has to be open before trying to set or get this
++    property; otherwise false is returned and the error code is set to
++    NotOpenError.
+ 
+     \sa pinoutSignals()
+ */
+@@ -907,7 +914,13 @@ bool QSerialPort::setRequestToSend(bool set)
+ {
+     Q_D(QSerialPort);
+ 
+-    bool retval = !isOpen() || d->setRequestToSend(set);
++    if (!isOpen()) {
++        setError(QSerialPort::NotOpenError);
++        qWarning("%s: device not open", Q_FUNC_INFO);
++        return false;
++    }
++
++    const bool retval = d->setRequestToSend(set);
+     if (retval && (d->requestToSend != set)) {
+         d->requestToSend = set;
+         emit requestToSendChanged(set);
+-- 
+2.0.0
+
