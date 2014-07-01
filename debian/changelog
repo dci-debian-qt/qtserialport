@@ -1,3 +1,7 @@
+qtserialport-opensource-src (5.3.0-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 12:13:33 -0300
+
 qtserialport-opensource-src (5.3.0-3) unstable; urgency=medium
 
   * Backport initialize_dataTerminalReady_and_requestToSend.patch to solve
