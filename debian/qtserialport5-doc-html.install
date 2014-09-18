@@ -1,6 +1,5 @@
 usr/share/qt5/doc/qtserialport/demos-manifest.xml
 usr/share/qt5/doc/qtserialport/examples-manifest.xml
-usr/share/qt5/doc/qtserialport/examples.html
 usr/share/qt5/doc/qtserialport/images/arrow_bc.png
 usr/share/qt5/doc/qtserialport/images/bgrContent.png
 usr/share/qt5/doc/qtserialport/images/blockingmaster-example.png
@@ -68,6 +67,7 @@ usr/share/qt5/doc/qtserialport/qtserialport-cwritersync-main-cpp.html
 usr/share/qt5/doc/qtserialport/qtserialport-enumerator-enumerator-pro.html
 usr/share/qt5/doc/qtserialport/qtserialport-enumerator-example.html
 usr/share/qt5/doc/qtserialport/qtserialport-enumerator-main-cpp.html
+usr/share/qt5/doc/qtserialport/qtserialport-examples.html
 usr/share/qt5/doc/qtserialport/qtserialport-index.html
 usr/share/qt5/doc/qtserialport/qtserialport-module.html
 usr/share/qt5/doc/qtserialport/qtserialport-terminal-console-cpp.html
