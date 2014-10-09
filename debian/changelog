@@ -1,6 +1,8 @@
-qtserialport-opensource-src (5.3.2-2~bpo70+1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.3.2-2~bpo70+1) wheezy-backports; urgency=medium
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Oct 2014 14:53:36 -0300
+  * Upload to wheezy-backports.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 09 Oct 2014 14:54:38 -0300
 
 qtserialport-opensource-src (5.3.2-2) unstable; urgency=medium
 
