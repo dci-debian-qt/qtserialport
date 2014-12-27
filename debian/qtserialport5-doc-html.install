@@ -1,4 +1,3 @@
-usr/share/qt5/doc/qtserialport/demos-manifest.xml
 usr/share/qt5/doc/qtserialport/examples-manifest.xml
 usr/share/qt5/doc/qtserialport/images/arrow_bc.png
 usr/share/qt5/doc/qtserialport/images/bgrContent.png
@@ -28,8 +27,8 @@ usr/share/qt5/doc/qtserialport/images/used-in-examples/terminal/images/settings.
 usr/share/qt5/doc/qtserialport/qserialport-members.html
 usr/share/qt5/doc/qtserialport/qserialport-obsolete.html
 usr/share/qt5/doc/qtserialport/qserialport.html
-usr/share/qt5/doc/qtserialport/qserialportinfo-compat.html
 usr/share/qt5/doc/qtserialport/qserialportinfo-members.html
+usr/share/qt5/doc/qtserialport/qserialportinfo-obsolete.html
 usr/share/qt5/doc/qtserialport/qserialportinfo.html
 usr/share/qt5/doc/qtserialport/qtserialport-blockingmaster-blockingmaster-pro.html
 usr/share/qt5/doc/qtserialport/qtserialport-blockingmaster-dialog-cpp.html
