@@ -3,6 +3,7 @@ qtserialport-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Update build-dependencies for Qt 5.4.0.
+  * Build-depend on qtbase5-doc-html, for docs linking.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 12:14:43 +0300
 
