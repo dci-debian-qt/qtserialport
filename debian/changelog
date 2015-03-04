@@ -5,6 +5,7 @@ qtserialport-opensource-src (5.4.0-2) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to use https://download.qt.io/.
   * Update debian/libqt5serialport5.symbols.
+  * Simplify debian/qtserialport5-doc-html.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 15:39:37 +0300
 
