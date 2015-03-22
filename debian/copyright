@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtserialport-opensource-src
-Source: https://qt.gitorious.org/qt/qtserialport
+Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
 Copyright: 2014 Digia Plc and/or its subsidiary(-ies).
