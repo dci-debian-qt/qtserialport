@@ -1,4 +1,4 @@
-qtserialport-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.4.2-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update Source URL, as gitorious is closing.
@@ -11,7 +11,7 @@ qtserialport-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     (and we really hope to see you back really soon!).
   * Expose HTML documentation (Closes: #751183).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Mar 2015 13:40:24 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 18:20:57 -0300
 
 qtserialport-opensource-src (5.4.1-1) experimental; urgency=medium
 
