@@ -22,6 +22,7 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZN11QSerialPort17setReadBufferSizeEx@Base 5.1.0
  _ZN11QSerialPort18flowControlChangedENS_11FlowControlE@Base 5.1.0
  _ZN11QSerialPort18setDataErrorPolicyENS_15DataErrorPolicyE@Base 5.1.0
+ _ZN11QSerialPort19breakEnabledChangedEb@Base 5.5.0
  _ZN11QSerialPort19isDataTerminalReadyEv@Base 5.1.0
  _ZN11QSerialPort19waitForBytesWrittenEi@Base 5.1.0
  _ZN11QSerialPort20requestToSendChangedEb@Base 5.1.0
@@ -72,6 +73,7 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZNK11QSerialPort12bytesToWriteEv@Base 5.1.0
  _ZNK11QSerialPort12isSequentialEv@Base 5.1.0
  _ZNK11QSerialPort14bytesAvailableEv@Base 5.1.0
+ _ZNK11QSerialPort14isBreakEnabledEv@Base 5.5.0
  _ZNK11QSerialPort14readBufferSizeEv@Base 5.1.0
  _ZNK11QSerialPort15dataErrorPolicyEv@Base 5.1.0
  _ZNK11QSerialPort23settingsRestoredOnCloseEv@Base 5.1.0
