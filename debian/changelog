@@ -1,6 +1,5 @@
-qtserialport-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
   * Update debian/libqt5serialport5-dev.install.
@@ -8,7 +7,7 @@ qtserialport-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Build-depend on qtbase5-private-dev, qtbase5-dev is not enough.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2015 13:51:47 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 29 Aug 2015 14:56:57 +0300
 
 qtserialport-opensource-src (5.4.2-2) unstable; urgency=medium
 
