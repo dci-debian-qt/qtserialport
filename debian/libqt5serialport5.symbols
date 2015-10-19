@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZN11QSerialPort10clearErrorEv@Base 5.1.0
  _ZN11QSerialPort11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0
@@ -38,7 +38,6 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZN11QSerialPort5flushEv@Base 5.1.0
  _ZN11QSerialPort7setPortERK15QSerialPortInfo@Base 5.1.0
  _ZN11QSerialPort8readDataEPcx@Base 5.1.0
- _ZN11QSerialPort8setErrorENS_15SerialPortErrorERK7QString@Base 5.1.0
  _ZN11QSerialPort9sendBreakEi@Base 5.1.0
  _ZN11QSerialPort9setParityENS_6ParityE@Base 5.1.0
  _ZN11QSerialPort9writeDataEPKcx@Base 5.1.0
