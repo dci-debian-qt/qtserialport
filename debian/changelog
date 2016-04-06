@@ -1,12 +1,11 @@
-qtserialport-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.6.0-1) experimental; urgency=medium
 
-  [ Timo Jyrinki ]
   * New upstream release.
   * Bump build dependencies to 5.6.0.
   * Bump Standards-Version to 3.9.7, no changes.
   * Migrate symbols to new node names.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2016 12:52:04 +0300
+ -- Timo Jyrinki <timo@debian.org>  Wed, 06 Apr 2016 12:55:54 +0300
 
 qtserialport-opensource-src (5.5.1-2) unstable; urgency=medium
 
