@@ -1,3 +1,9 @@
+qtserialport-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2016 12:52:04 +0300
+
 qtserialport-opensource-src (5.5.1-2) unstable; urgency=medium
 
   * Upload to unstable.
