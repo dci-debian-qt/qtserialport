@@ -11,7 +11,7 @@ qtserialport-opensource-src (5.6.1-1) experimental; urgency=medium
   * Simple update in debian/copyright.
   * Remove the private mark of two symbols, we are not currently marking them.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 10:28:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 10:47:22 -0300
 
 qtserialport-opensource-src (5.6.0-1) experimental; urgency=medium
 
