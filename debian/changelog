@@ -9,6 +9,7 @@ qtserialport-opensource-src (5.6.1-1) experimental; urgency=medium
   * Bump Standards-Version to 3.9.8, no changes required.
   * Add qt5serialport-examples, as now we have them.
   * Simple update in debian/copyright.
+  * Remove the private mark of two symbols, we are not currently marking them.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 10:28:59 -0300
 
