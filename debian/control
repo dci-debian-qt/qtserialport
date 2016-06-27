@@ -11,14 +11,14 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 9),
                libudev-dev [linux-any],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.6.0+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0+dfsg~),
-                     qtbase5-doc-html (>= 5.6.0+dfsg~),
-                     qttools5-dev-tools (>= 5.6.0~)
-Standards-Version: 3.9.7
+               qtbase5-private-dev (>= 5.6.1+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
+                     qtbase5-doc-html (>= 5.6.1+dfsg~),
+                     qttools5-dev-tools (>= 5.6.1~)
+Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtserialport.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtserialport.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtserialport.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtserialport.git
 
 Package: libqt5serialport5
 Architecture: any
@@ -41,6 +41,17 @@ Description: Qt 5 serial port development files
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package includes the development headers for the serial port library.
+
+Package: qt5serialport-examples
+Section: x11
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 serial port examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package constains the serial port submodule's examples.
 
 Package: qtserialport5-dbg
 Priority: extra
