@@ -1,10 +1,9 @@
-qtserialport-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Oct 2016 17:37:44 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Oct 2016 17:42:47 -0300
 
 qtserialport-opensource-src (5.7.0-1) experimental; urgency=medium
 
