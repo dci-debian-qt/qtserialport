@@ -8,13 +8,13 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                libudev-dev [linux-any],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.6.1+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
-                     qtbase5-doc-html (>= 5.6.1+dfsg~),
-                     qttools5-dev-tools (>= 5.6.1~)
+               qtbase5-private-dev (>= 5.7.1~20161021+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
+                     qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+                     qttools5-dev-tools (>= 5.7.1~20161021~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtserialport.git
@@ -52,18 +52,6 @@ Description: Qt 5 serial port examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package constains the serial port submodule's examples.
-
-Package: qtserialport5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt5serialport5 (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 serial port library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 serial port library.
 
 Package: qtserialport5-doc
 Priority: extra
