@@ -3,6 +3,7 @@ qtserialport-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.0.
+  * Update debian/libqt5serialport5.symbols for 5.9.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Jun 2017 22:39:36 +0300
 
