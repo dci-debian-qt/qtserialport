@@ -1,3 +1,9 @@
+qtserialport-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+
+  * neon build
+
+ -- Jonathan Riddell <jr@jriddell.org>  Mon, 03 Jul 2017 15:00:12 +0100
+
 qtserialport-opensource-src (5.9.0-1) experimental; urgency=medium
 
   * New upstream release.
