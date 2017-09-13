@@ -1,8 +1,16 @@
-qtserialport-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.9.1-2) unstable; urgency=medium
 
-  * neon build
+  * Release to unstable.
 
- -- Jonathan Riddell <jr@jriddell.org>  Mon, 03 Jul 2017 15:00:12 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 14:15:12 -0300
+
+qtserialport-opensource-src (5.9.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 16:01:54 +0300
 
 qtserialport-opensource-src (5.9.0-1) experimental; urgency=medium
 
