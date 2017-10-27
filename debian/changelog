@@ -4,6 +4,8 @@ qtserialport-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Use debhelper compat level 10 and dh_missing.
+  * Stop using deprecated Priority: extra.
+  * Bump Standards-Version to 4.1.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Oct 2017 21:10:16 +0300
 
