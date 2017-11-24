@@ -1,5 +1,9 @@
 qtserialport-opensource-src (5.9.2-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Let dh_auto_configure pass cross tools to qmake (Closes: #881852).
+    Thanks Helmut Grohne for the patch.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 24 Nov 2017 17:38:06 -0300
 
 qtserialport-opensource-src (5.9.2-1) unstable; urgency=medium

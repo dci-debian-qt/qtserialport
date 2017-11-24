@@ -13,9 +13,6 @@ export QT_SELECT := qt5
 %:
 	dh $@ --with pkgkde_symbolshelper
 
-override_dh_auto_configure:
-	qmake 
-
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
