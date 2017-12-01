@@ -8,14 +8,14 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.20160114~),
+Build-Depends: debhelper (>= 10.3),
                libudev-dev [linux-any],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.9.0+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0+dfsg~),
-                     qtbase5-doc-html (>= 5.9.0+dfsg~),
-                     qttools5-dev-tools (>= 5.9.0~)
-Standards-Version: 3.9.8
+               qtbase5-private-dev (>= 5.9.2+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2+dfsg~),
+                     qtbase5-doc-html (>= 5.9.2+dfsg~),
+                     qttools5-dev-tools (>= 5.9.2~)
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtserialport.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtserialport.git
@@ -54,7 +54,6 @@ Description: Qt 5 serial port examples
  This package constains the serial port submodule's examples.
 
 Package: qtserialport5-doc
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -66,7 +65,6 @@ Description: Qt 5 serial port documentation
  and binaries.
 
 Package: qtserialport5-doc-html
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
