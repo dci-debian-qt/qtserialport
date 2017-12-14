@@ -1,9 +1,9 @@
-qtserialport-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+qtserialport-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies to Qt 5.9.3.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 21:20:46 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 21:29:54 -0600
 
 qtserialport-opensource-src (5.9.2-2) unstable; urgency=medium
 
