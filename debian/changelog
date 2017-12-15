@@ -1,3 +1,10 @@
+qtserialport-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 12:19:34 +0300
+
 qtserialport-opensource-src (5.9.2-2) unstable; urgency=medium
 
   * Let dh_auto_configure pass cross tools to qmake (Closes: #881852).
