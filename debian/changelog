@@ -4,6 +4,22 @@ qtserialport-opensource-src (5.10.0~beta2-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:31 +0100
 
+qtserialport-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
+
+  * neon build
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qtserialport-opensource-src (5.9.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Stop using deprecated Priority: extra.
+  * Bump Standards-Version to 4.1.1.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 21:24:56 +0300
+
 qtserialport-opensource-src (5.9.1-2) unstable; urgency=medium
 
   * Release to unstable.
