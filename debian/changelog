@@ -1,3 +1,21 @@
+qtserialport-opensource-src (5.10.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 20:13:51 -0300
+
+qtserialport-opensource-src (5.10.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Support the nodoc build profile.
+  * Update Standards-Version to 4.1.3, no changes required.
+  * Switch to debhelper compat 11.
+  * Switch Vcs-[Git Browser] to salsa.debian.org.
+  * Minor update in debian/copyright.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 14 Mar 2018 10:52:42 -0300
+
 qtserialport-opensource-src (5.10.0-1) experimental; urgency=medium
 
   * New upstream release.
@@ -25,11 +43,8 @@ qtserialport-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
 
 qtserialport-opensource-src (5.9.2-2) unstable; urgency=medium
 
-<<<<<<<
   * Let dh_auto_configure pass cross tools to qmake (Closes: #881852).
     Thanks Helmut Grohne for the patch.
-=======
->>>>>>>
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 13:27:32 -0300
 
