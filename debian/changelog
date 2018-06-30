@@ -8,6 +8,7 @@ qtserialport-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   * Bump build dependencies to 5.11.1.
   * Remove the dbgsym migration section of debian/rules; it isn't needed
     anymore.
+  * Fix insecure-copyright-format-uri.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:44:22 -0500
 
